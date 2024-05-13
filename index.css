@@ -1,0 +1,42 @@
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+nav {
+  vertical-align: middle;
+  padding: 10px 0;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+#hero {
+  width: 70vw;
+  height: fit-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-45%, -50%);
+}
+
+#hero > h1 {
+  font-size: 6vw;
+  margin-bottom: 20px;
+}
+#hero > h3 {
+  font-size: 3vw;
+  margin-bottom: 10vh;
+}
+
+#btn_section {
+  width: 100%;
+  height: fit-content;
+}
